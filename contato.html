@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Games</title>
+		<link rel="stylesheet" href="css/estilo5.css"></link>
+
+	</head>
+	<body>
+		<div id="container">
+			<header id="titulo"><!-- criar o cabeçalho -->
+				<h1>Games</h1>
+			</header>
+			<nav id="menu"><!-- barra de navegação -->
+				<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="console2.html">Consoles</a></li>
+                        <li><a href="jogos2.html">Jogos</a></li>
+                        <li><a href="contato.html">Horários</a></li>
+                        <li><a href="tabela.html">Horário</a></li>
+                        <li><a href="mapa.html">Mapa</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+				</ul>
+			</nav>
+			<section id="principal">
+                <div id='form'>
+
+                <form>
+                Nome: <input type="text" name="nome" placeholder="Digite o seu nome"></br>
+                E-mail: <input type="email" name='email' placeholder="Digite seu E-mail"></br>
+                Data de Nascimento: <input type="date" name="dtnasc" placeholder="Data de nascimento"></br>
+                Sexo: <input type="radio" name="sexo" value="M"> Masculino
+                <input type="radio" name="sexo" value="F">Feminino</br></br>
+                
+                Aceita receber E-mails promocionais? 
+                <input type="checkbox" value="S">Sim
+                <input type="checkbox" value="N">Não </br></br>
+
+                Assunto: <select name="ass" >
+                        <option value="Elogios" nome='elog'>Elogios</option>
+                        <option value="Dúvidas" nome='duvidas'>Dúvidas</option>
+                        <option value="Outros" nome='outros'>Outros</option>
+                        <option value="Reclamação" name='recl'>Reclamação</option>
+                        <option value="Sugestão" nome='sug'>Sugestão</option>
+                      </select></br></br>
+                Mensagem:</br> <textarea name="mensagem" rows='16' cols='60' placeholder="Digite sua mensagem.">
+                </textarea></br>
+                <button  type="enviar">Enviar</button>
+                <button  type="reset">Limpar</button>
+                </form>
+
+            </div>
+			</section>
+			<footer>
+				<p>Rua Santa Luzia, 550- Cinelândia - Rio de Janeiro - RJ</p>
+
+			</footer>
+		</div>
+	</body>
+</html>
